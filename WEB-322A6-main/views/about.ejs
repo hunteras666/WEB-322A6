@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="cupcake">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About - Lego Collection</title>
+  <link href="/css/main.css" rel="stylesheet">
+</head>
+<body class="bg-base-100 text-base-content">
+
+  <!-- Updated Navbar -->
+  <%- include('./partials/navbar', { page: '/about' }) %>
+
+  <!-- Hero Section -->
+  <div class="hero bg-base-200 rounded-lg p-6">
+    <div class="hero-content text-center">
+      <div class="max-w-md">
+        <h1 class="text-5xl font-bold">About</h1>
+        <p class="py-6">Learn more about me!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content Section -->
+  <div class="container mx-auto p-6">
+    <div class="bg-base-200 p-6 rounded-lg shadow-lg grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div>
+        <img src="https://i.imgflip.com/729omm.jpg" alt="Cat Image" class="w-full rounded-lg shadow-lg">
+      </div>
+      <div>
+        <!-- Introduction Paragraph -->
+        <p>My name is Rajesh Sah, and I’m currently in Toronto, Canada, pursuing computer programming at Seneca College.</p>
+        
+        <!-- Drake Lyrics for Coding and Hobbies -->
+        <p>"I got a lot of toys, 720S bumpin' Fall Out Boy, you was talkin' sh*t in the beginning, back when I was feelin' more forgivin'. I know I’m high, but I’m still, still, still, and now I’m here, so I’m lit!" – Drake</p>
+        
+        <!-- Additional Interests -->
+        <p>When I'm not coding, I'm enjoying my favorite tunes and living life in the 6ix. 🐱🎶</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA Button -->
+  <a href="https://github.com/hunteras666" class="btn btn-outline mt-6">Check out my Projects</a>
+
+  <!-- Fun Quote -->
+  <p class="mt-4 text-sm text-gray-500">"Code is like humor. When you have to explain it, it’s bad." – Cory House</p>
+
+</body>
+</html>
